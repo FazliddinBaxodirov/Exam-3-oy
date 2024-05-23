@@ -1,0 +1,25 @@
+:root{
+    --text--clr:black;
+}
+
+
+@mixin display($jc:space-between, $ai:center){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin title($fw:600,$fs:52px,$lh:65px, $clr:#363738){
+    font-family: 'Exo';
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $clr;
+}
+@mixin text($fw:400,$fs:16px,$lh:24px, $clr:#6B6B6C){
+    font-family: 'PT Sans';
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $clr;
+}
