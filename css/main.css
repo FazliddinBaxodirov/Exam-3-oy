@@ -24,15 +24,15 @@
   text-decoration: none;
 }
 
+body {
+  font-family: "Exo";
+  font-family: "PT Sans";
+}
+
 .container {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-body {
-  font-family: "Exo";
-  font-family: "PT Sans";
 }
 
 .visually-hidden {
